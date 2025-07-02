@@ -1,13 +1,17 @@
-from clases import Campana, Anuncio
+from clases import *
+from datetime import date
 
 
 
-c = Campana("campana1","dads","adasds")
-print(c)
+a = Social(2,3,"campana1","dads","adasds")
 
+v = Video (12)
 
-a = Anuncio.mostrar_formatos()
-print(a)
+d = Display(1,2,"campana1","dads","adasds")
+
+print(a, v, d)
+
+a.sub_tipo = "FB"
 
 
 

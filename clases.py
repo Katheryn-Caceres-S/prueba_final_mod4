@@ -1,5 +1,6 @@
 from abc import abstractmethod , ABC
 from error import LargoExcedidoError
+from error import SubTipoInvalidoError
 
 
 class Anuncio(ABC):
